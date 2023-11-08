@@ -1,7 +1,8 @@
 import { useTheContext } from "../context/Context";
 
 function SomeCard() {
-    const { state, setState } = useTheContext();
+    const { state, setState, user } = useTheContext();
+    console.log(user);
     return (
         <div>
             {state}

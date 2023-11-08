@@ -3,8 +3,8 @@ import { useState } from "react";
 function Form() {
   const [array, setArray] = useState([
     {
-      id: 1,
-      name: "John",
+      id: "",
+      name: "",
     },
   ]);
 
